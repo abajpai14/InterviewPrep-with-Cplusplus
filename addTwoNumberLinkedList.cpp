@@ -1,4 +1,8 @@
-
+struct Node {
+    int val;
+    Node *next;
+    Node(int x) : val(x), next(NULL) {}
+};
 
 Node* addTwoNumbers(Node* number1, Node* number2) {
         int num1 = 0;
